@@ -3,7 +3,7 @@ version: "3"
 services:
   appserver:
     container_name: server2
-    image: yairmullll/backend2:latest
+    image: yairmullll/backend:v1.0.5
     ports:
       - 8080:8080
     depends_on:
